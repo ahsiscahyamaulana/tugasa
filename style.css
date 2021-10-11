@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: url(./img/bg.png)no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+header {
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 10px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#EECB30;
+}
+header .gambar{
+    top: 0;
+    margin-bottom: auto;
+}
+
+header .logo {
+ 
+    color: #303B59;
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin: auto;
+}
+
+header .navigation a {
+    color: #DCE7FF;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 2px 20px;
+    border-radius: 15px;
+    transition: 0.3s;
+    transition-property: background;
+    justify-content: space-between;
+    margin-right: auto;
+    text-transform: uppercase;
+}
+
+header .navigation a:not(:last-child){
+    margin-right: 30px;
+}
+
+header .navigation a:hover{
+    background: rgb(121, 121, 121);
+
+}
+
+.content {
+    max-width: 650px;
+    margin: 60px 100px;
+}
+
+.content .info h2{
+    color: #303b59;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    line-height: 60px;
+    margin-bottom: 30px;
+
+}
+
+.content .info p{
+    font-size: 16px;
+    font-weight: 500;
+    margin bottom: 40px;
+}
+header .jurusan {
+    margin-bottom: 100px;
+}
+
+.media-icons{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    transition: 0.3s;
+    transition-duration: tranform;
+}
+
+.media-icons a{
+    position: relative;
+    color: #000;
+    font-size: 25px;
+
+}
+.media-icons a:not(:last-child){
+    margin-right: 40px;
+
+}
+.media-icons a:hover{
+    transform: scale(1.5);
+
+
+
+
+
